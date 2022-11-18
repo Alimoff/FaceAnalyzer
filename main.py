@@ -49,16 +49,3 @@ async def create_multiple(file:UploadFile=File(...)):
         all_obj.append(obj)
         # print(obj)
     return  {"result":all_obj}
-
-
-
-
-
-# echo "# FaceAnalyzer" >> README.md
-# git init
-# git add README.md
-# git commit -m "first commit"
-# git branch -M main
-# git remote add origin https://github.com/Alimoff/FaceAnalyzer.git
-# git push -u origin main
-
